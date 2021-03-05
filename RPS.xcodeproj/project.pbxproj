@@ -13,6 +13,8 @@
 		85E210EB25F0FDD700207956 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85E210E925F0FDD700207956 /* Main.storyboard */; };
 		85E210ED25F0FDD900207956 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85E210EC25F0FDD900207956 /* Assets.xcassets */; };
 		85E210F025F0FDD900207956 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85E210EE25F0FDD900207956 /* LaunchScreen.storyboard */; };
+		85E210F825F23C6200207956 /* Sign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E210F725F23C6200207956 /* Sign.swift */; };
+		85E210FA25F23D5800207956 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E210F925F23D5800207956 /* GameState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		85E210EC25F0FDD900207956 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		85E210EF25F0FDD900207956 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		85E210F125F0FDD900207956 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85E210F725F23C6200207956 /* Sign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sign.swift; sourceTree = "<group>"; };
+		85E210F925F23D5800207956 /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				85E210E325F0FDD700207956 /* AppDelegate.swift */,
 				85E210E525F0FDD700207956 /* SceneDelegate.swift */,
 				85E210E725F0FDD700207956 /* ViewController.swift */,
+				85E210F725F23C6200207956 /* Sign.swift */,
+				85E210F925F23D5800207956 /* GameState.swift */,
 				85E210E925F0FDD700207956 /* Main.storyboard */,
 				85E210EC25F0FDD900207956 /* Assets.xcassets */,
 				85E210EE25F0FDD900207956 /* LaunchScreen.storyboard */,
@@ -140,6 +146,8 @@
 			files = (
 				85E210E825F0FDD700207956 /* ViewController.swift in Sources */,
 				85E210E425F0FDD700207956 /* AppDelegate.swift in Sources */,
+				85E210FA25F23D5800207956 /* GameState.swift in Sources */,
+				85E210F825F23C6200207956 /* Sign.swift in Sources */,
 				85E210E625F0FDD700207956 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
