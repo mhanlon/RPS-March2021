@@ -36,32 +36,26 @@ enum Sign {
         }
     }
     
-    func compareSign(_ sign: Sign) -> GameState {
-        if sign == self {
+    func gameState(against opponentSign: Sign) -> GameState {
+        if opponentSign == self {
             return .draw
         }
+        
         switch self {
         case .rock:
-            // some code here
-            if sign == .paper {
-                return .lose
-            } else {
+            if ( opponentSign == .scissors ) {
                 return .win
             }
         case .paper:
-            // paper code here
-            if sign == .rock {
+            if ( opponentSign == .rock ) {
                 return .win
-            } else {
-                return .lose
             }
         case .scissors:
-            // scissors code here
-            if sign == .rock {
-                return .lose
-            } else {
+            if ( opponentSign == .paper ) {
                 return .win
             }
         }
+        
+        return .lose
     }
 }
